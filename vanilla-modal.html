@@ -1,0 +1,27 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Vanilla Modal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./vanilla-modal.css" />
+</head>
+<body>
+    <div class="bg-blackout"></div>
+    <h1>Hope you came here to open a modal containing a Kanye West quote...</h1>
+    <button class="modal-trigger" type="button" data-modal-trigger="kanye">
+        Of course
+    </button>
+    
+    <div class="modal" data-modal="kanye">
+        <div class="modal-header">
+            <h1>You're welcome</h1> 
+            <span class="close">&times;</span>
+        </div>
+        <div id="quote"></div>
+        
+    </div>
+    <script type="text/javascript" src="./vanilla-modal.js"></script>
+</body>
+</html>
